@@ -679,8 +679,13 @@ There's no need to make zone configuration changes; by default, the cluster is c
 
     The timeseries data will only be replicated 3 times without affecting the configuration of all other data.
 
+## Troubleshoot replication zones
+
+For more information about how to troubleshoot your zone configuration, see [Troubleshoot Replication Zone Configurations]({% link {{ page.version.version }}/troubleshoot-replication-zones.md %})
+
 ## See also
 
+- [Troubleshoot Replication Zone Configurations]({% link {{ page.version.version }}/troubleshoot-replication-zones.md %})
 - [`SHOW ZONE CONFIGURATIONS`]({% link {{ page.version.version }}/show-zone-configurations.md %})
 - [`ALTER DATABASE ... CONFIGURE ZONE`]({% link {{ page.version.version }}/alter-database.md %}#configure-zone)
 - [`ALTER INDEX ... CONFIGURE ZONE`]({% link {{ page.version.version }}/alter-index.md %}#configure-zone)
